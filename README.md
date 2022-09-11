@@ -1,4 +1,4 @@
-# Amharic Quran JSON API 
+# Amharic Quran API 
 
 Simplified Perfect Complete Amharic Quran JSON REST API.
 
