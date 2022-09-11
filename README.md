@@ -6,11 +6,11 @@ Simplified Perfect Complete Amharic Quran JSON REST API.
 
 ```sh
 .
-├── README.md
-├── title.json                  // AL-Quran JSON
-├── page.json         // API QuranJSON
-└── surah                       // Complete Surah JSON Directory
+├── title.json          // AL-Quran Title JSON
+├── amh                 // Complete Surah JSON Directory
     └── <number_of:1-114>.json
+└── amh/pages           // Complete Pages JSON Directory
+    └── <number_of:1-604>.json
 ```
 
 ## Use Of API / Service
@@ -18,26 +18,26 @@ Simplified Perfect Complete Amharic Quran JSON REST API.
 ### Base GET endpoint
 
 ```
-https://nomadigital.github.io/simple-quran-api/api
+https://cdn.jsdelivr.net/gh/MkBEt/quran-api
 ```
 
 Get Quran Title:
 
 > Get all the details about quran title<br>
 ```sh
-https://raw.githubusercontent.com/penggguna/QuranJSON/master/title.json
+ https://cdn.jsdelivr.net/gh/MkBEt/quran-api/amh/title.json
 ```
 
 Get Surah:
 
 > Get the chapter 1:<br>
 ```sh
-https://raw.githubusercontent.com/penggguna/QuranJSON/master/surah/1.json
+https://cdn.jsdelivr.net/gh/MkBEt/quran-api/amh/1.json
 ```
 
 Get Pages:
 
 > Get Page Number 1:<br>
 ```sh
-https://raw.githubusercontent.com/penggguna/QuranJSON/master/surah/1.json
+https://cdn.jsdelivr.net/gh/MkBEt/quran-api/amh/pages/1.json
 ```
