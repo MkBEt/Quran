@@ -6,9 +6,11 @@ Simplified Perfect Complete Amharic Quran JSON REST API.
 
 ```sh
 .
-├── title.json          // AL-Quran Title JSON
-├── amh                 // Complete Surah JSON Directory
+├── amh/title.json      // AL-Quran Title JSON
+├── amh/surah           // Complete Surah JSON Directory
 |   └── <number_of:1-114>.json
+└── amh/juzs            // Complete Pages JSON Directory
+|    └── <number_of:1-30>.json
 └── amh/pages           // Complete Pages JSON Directory
     └── <number_of:1-604>.json
 ```
@@ -40,4 +42,11 @@ Get Pages:
 > Get Page Number 1:<br>
 ```sh
 https://cdn.jsdelivr.net/gh/MkBEt/quran/api/amh/pages/1.json
+```
+
+Get Juzs:
+
+> Get Juzs Number 1:<br>
+```sh
+https://cdn.jsdelivr.net/gh/MkBEt/quran/api/amh/juzs/1.json
 ```
